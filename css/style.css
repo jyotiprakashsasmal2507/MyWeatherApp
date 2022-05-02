@@ -15,8 +15,8 @@
   .container {
     position: relative;
     background-color: #fff;
-    padding: 0 1em 1em; 
-    margin: 100px 400px 100px auto; 
+    padding: 0 4em 4em; 
+    margin: 100px 350px 100px auto; 
     -webkit-filter: drop-shadow(0 1em 1em rgba(0, 0, 0, 0.1));
             filter: drop-shadow(0 1em 1em rgba(0, 0, 0, 0.1));
   }
