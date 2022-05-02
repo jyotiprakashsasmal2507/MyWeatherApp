@@ -54,6 +54,12 @@ function showWeather(details){  //Taking the received values from API into this 
 
     let weatherType = document.getElementById('weather-type');
     weatherType.innerHTML = `${details.weather[0].main}`;
+     let longLat = document.getElementById('lon-lat');
+    longLat.innerHTML = `${(details.coord.lon)} , ${(details.coord.lat)}`; //Rounding of the longitude and latitude 
+
+    let windSpeed = document.getElementById('speed-gust');
+    windSpeed.innerHTML= `${Math.round(details.wind.speed)}(speed) and ${Math.round(details.wind.gust)}(gust)`; //Rounding off the temp using math function
+
 }
 
 /*----------------------------------------------------------------------------------------*/
